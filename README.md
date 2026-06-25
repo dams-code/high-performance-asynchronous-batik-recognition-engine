@@ -127,24 +127,24 @@ high-performance-asynchronous-batik-recognition-engine
 
 ## Tampilan Sistem
 
-<table border="0">
-  <tr>
-    <td align="center" width="33%"><b>Menu Awal saat Backend dan Service Offline</b></td>
-    <td align="center" width="33%"><b>Menu Awal saat Backend dan Service Aktif</b></td>
-    <td align="center" width="33%"><b>Hasil Pemrosesan Gambar oleh CNN</b></td>
-  </tr>
-  <tr>
-    <td>
-      <img src="./menu-awal-offline.png" width="100%" alt="menu-awal-offline">
-    </td>
-    <td>
-      <img src="./menu-awal.png" width="100%" alt="menu-awal">
-    </td>
-    <td>
-      <img src="./hasil-prediksi.png" width="100%" alt="hasil-prediksi">
-    </td>
-  </tr>
-</table>
+<div style="width: 900px; white-space: nowrap;">
+
+  <div style="display: inline-block; width: 280px; text-align: center; margin-right: 15px; vertical-align: top;">
+    <b>Menu Awal saat Backend dan Service Offline</b><br><br>
+    <img src="./menu-awal-offline.png" width="100%" alt="Menu Awal saat Backend dan Service Offline">
+  </div>
+
+  <div style="display: inline-block; width: 280px; text-align: center; margin-right: 15px; vertical-align: top;">
+    <b>Menu Awal saat Backend dan Service Aktif</b><br><br>
+    <img src="./menu-awal.png" width="100%" alt="Menu Awal saat Backend dan Service Aktif">
+  </div>
+
+  <div style="display: inline-block; width: 280px; text-align: center; vertical-align: top;">
+    <b>Hasil Prediksi pada model CNN</b><br><br>
+    <img src="./hasil-prediksi.png" width="100%" alt="Hasil Prediksi pada model CNN">
+  </div>
+
+</div>
 
 ---
 
@@ -153,7 +153,7 @@ high-performance-asynchronous-batik-recognition-engine
 <table>
     <tr>
         <td colspan="99">
-            <img src="./Arsitektur-Sistem.png" width="100%" alt="hasil-prediksi">
+            <img src="./Arsitektur-Sistem.png" width="550px" alt="hasil-prediksi">
         </td>
     </tr>
 </table>
