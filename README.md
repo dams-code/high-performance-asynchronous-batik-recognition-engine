@@ -93,6 +93,7 @@ high-performance-asynchronous-batik-recognition-engine
 ├── .gitignore
 ├── index.html
 ├── README.md
+├── Arsitektur-Sistem.png
 ├── hasil-prediksi.png
 ├── menu-awal-offline.png
 ├── menu-awal.png
