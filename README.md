@@ -89,17 +89,21 @@ Status sistem digunakan untuk menentukan apakah proses klasifikasi dapat dijalan
 ## Struktur Proyek
 
 ```text
-.
+high-performance-asynchronous-batik-recognition-engine
+├── .gitignore
 ├── index.html
 ├── README.md
-├── Diagram Project Architecture.png
+├── hasil-prediksi.png
+├── menu-awal-offline.png
+├── menu-awal.png
+├── index.html
 │
 ├── go_backend/
 │   ├── main.go
 │   ├── go.mod
 │   └── go.sum
 │
-└── inference_python/
+└── python_inference/
     ├── app.py
     ├── requirements.txt
     └── saved_model_batik/
@@ -118,6 +122,41 @@ Status sistem digunakan untuk menentukan apakah proses klasifikasi dapat dijalan
 7. Hasil dikembalikan ke Backend Go.
 8. Backend mengirimkan hasil klasifikasi ke antarmuka pengguna.
 9. Berkas sementara dihapus setelah proses selesai.
+
+---
+
+## Tampilan Sistem
+
+<table border="0">
+  <tr>
+    <td align="center" width="33%"><b>Menu Awal saat Backend dan Service Offline</b></td>
+    <td align="center" width="33%"><b>Menu Awal saat Backend dan Service Aktif</b></td>
+    <td align="center" width="33%"><b>Hasil Pemrosesan Gambar oleh CNN</b></td>
+  </tr>
+  <tr>
+    <td>
+      <img src="./menu-awal-offline.png" width="100%" alt="menu-awal-offline">
+    </td>
+    <td>
+      <img src="./menu-awal.png" width="100%" alt="menu-awal">
+    </td>
+    <td>
+      <img src="./hasil-prediksi.png" width="100%" alt="hasil-prediksi">
+    </td>
+  </tr>
+</table>
+
+---
+
+## Arsitektur Sistem
+
+<table>
+    <tr>
+        <td colspan="99">
+            <img src="./Arsitektur-Sistem.png" width="100%" alt="hasil-prediksi">
+        </td>
+    </tr>
+</table>
 
 ---
 

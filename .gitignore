@@ -16,9 +16,9 @@ Batik300/
 dataset/
 uploads/
 tmp/
-.drawio
+*.drawio
 .png
-.jpg
+*.jpg
 .jpeg
 .DS_Store
 Thumbs.db
